@@ -1,5 +1,5 @@
 import Card from '../../components/card';
-import Image from 'next/image';
+
 import firstcar from '../../public/firstcar.jpg';
 import Ellipse from '../../public/Ellipse 38.png';
 import honda from '../../public/honda.jpeg';
