@@ -9,10 +9,11 @@ import jaffna from '../app/public/jaffna.png';
 import colombo from '../app/public/colombo.png';
 import blog from '../app/public/blog.png';
 
+
 export default function Home() {
   return (
-    <div>
-    
+    <div className="bg-white min-h-screen">
+      {/* Hero Section */}
       <div className="relative">
         <Image
           src={young}
@@ -29,46 +30,49 @@ export default function Home() {
             Rent Cars, Houses, and Items in Just a Few Clicks
           </p>
           <div className="hidden sm:flex flex-wrap justify-center sm:mt-4 xl:mt-[18px] space-x-4 sm:space-x-6">
-  <p className="border-2 border-red-700 rounded-xl bg-red-700 text-white text-center py-2 w-[90px] sm:w-[120px]">
-    Houses
-  </p>
-  <p className="border-2 border-white rounded-xl bg-white text-black text-center py-2 w-[90px] sm:w-[120px]">
-    Rides
-  </p>
-  <p className="border-2 border-white rounded-xl bg-white text-black text-center py-2 w-[90px] sm:w-[120px]">
-    Things
-  </p>
-</div>
-
+            <p className="border-2 border-red-700 rounded-xl bg-red-700 text-white text-center py-2 w-[90px] sm:w-[120px]">
+              Houses
+            </p>
+            <p className="border-2 border-white rounded-xl bg-white text-black text-center py-2 w-[90px] sm:w-[120px]">
+              Rides
+            </p>
+            <p className="border-2 border-white rounded-xl bg-white text-black text-center py-2 w-[90px] sm:w-[120px]">
+              Things
+            </p>
+          </div>
           <Searchbar />
         </div>
       </div>
 
-     
-      <div className="my-8">
-        <h1 id="category"  className=" text-center text-2xl sm:text-3xl xl:text-3xl font-bold">
+      {/* Categories Section */}
+      <div className="my-8 bg-white">
+        <h1
+          id="category"
+          className="text-center text-2xl sm:text-3xl xl:text-3xl font-bold"
+        >
           Browse from Top Categories
         </h1>
         <div className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
-          <p className="border-2 bg-gray-500 text-white w-36 h-9 rounded-2xl text-center pt-2">
+          <p className="border-2 bg-gray-500 text-white w-36 h-9 rounded-2xl text-center pt-1">
             Holiday Rentals
           </p>
-          <p className="border-2 bg-gray-500 text-white w-40 h-9 rounded-2xl text-center pt-2">
+          <p className="border-2 bg-gray-500 text-white w-40 h-9 rounded-2xl text-center pt-1">
             Residential Spaces
           </p>
-          <p className="border-2 bg-gray-500 text-white w-36 h-9 rounded-2xl text-center pt-2">
+          <p className="border-2 bg-gray-500 text-white w-36 h-9 rounded-2xl text-center pt-1">
             Event Spaces
           </p>
-          <p className="border-2 bg-gray-500 text-white w-48 h-9 rounded-2xl text-center pt-2">
+          <p className="border-2 bg-gray-500 text-white w-48 h-9 rounded-2xl text-center pt-1">
             Commercial Properties
           </p>
-          <p className="border-2 bg-gray-500 text-white w-24 h-9 rounded-2xl text-center pt-2">
+          <p className="border-2 bg-gray-500 text-white w-24 h-9 rounded-2xl text-center pt-1">
             More
           </p>
         </div>
       </div>
 
-      <section className="featured-locations py-10">
+
+      <section className="featured-locations py-10 bg-white">
         <div className="max-w-7xl mx-auto px-2">
           <h2 className="text-3xl sm:text-4xl xl:text-4xl font-bold text-center mb-6">
             Featured Locations

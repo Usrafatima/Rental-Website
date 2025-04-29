@@ -7,7 +7,8 @@ import insta from '../public/insta.png';
 
 export default function Footer() {
   return (
-    <footer id="contact" className="bg-[#F4F4F4] py-10">
+    <div className="">
+    <footer id="contact" className="bg-[#F4F4F4] py-10 ">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
      
         <div>
@@ -72,5 +73,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </div>
   );
 }
