@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import logo from '../public/logo 1.png';
-import user from '../public/user.png';
+
 
 export default function Header() {
   return (
