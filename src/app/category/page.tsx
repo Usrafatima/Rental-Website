@@ -1,5 +1,5 @@
 import Card from '../components/card';
-import Image from 'next/image';
+
 import image from '../public/image 24.png';
 import image2 from '../public/image2 26.png';
 import image3 from '../public/image3 27.png';
