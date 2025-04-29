@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="flex items-center space-x-4">
             <Image src={logo} width={100} height={100} alt="Logo" className="w-20" />
             <p className="text-sm">
-              Sri Lanka's first & largest platform designed to create an online marketplace exclusively for RENT
+              Sri Lankas first & largest platform designed to create an online marketplace exclusively for RENT
             </p>
           </div>
           <div className="flex space-x-3 mt-4">
